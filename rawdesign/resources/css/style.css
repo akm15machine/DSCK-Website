@@ -14,27 +14,6 @@ body {
     font-family: 'Mulish', sans-serif;
 }
 
-::-webkit-scrollbar {
-    width: 0.5rem;
-}
-
-::-webkit-scrollbar-track {
-    background: repeating-linear-gradient(rgb(255, 87, 87), rgb(88, 88, 230), rgb(76, 228, 76), rgb(241, 241, 88));
-}
-
-::-webkit-scrollbar-thumb {
-    background: #484849;
-    border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: rgb(133, 132, 132);
-}
-
-::-webkit-scrollbar-thumb:active {
-    background: rgb(133, 132, 132);
-}
-
 a,
 a:active,
 a:hover,
@@ -215,11 +194,10 @@ nav:hover .logo-img {
 
 header {
     min-height: 700px;
-    background-image: url('../images/header-background.png');
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: sticky;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -243,7 +221,7 @@ header {
 }
 
 .content h1 {
-    font-size: 46px;
+    font-size: 3rem;
     line-height: 1.2;
     padding: 10px 50px;
 }
@@ -354,6 +332,7 @@ header {
 }
 
 .footer .footer-content .links {
+    /*font-family: 'product sans';*/
     text-align: center;
     list-style: none;
     /*list-style: square;*/

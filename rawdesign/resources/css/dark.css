@@ -15,16 +15,17 @@ a:hover {
 }
 
 ::-webkit-scrollbar-track {
-    background: repeating-linear-gradient(rgb(255, 52, 52), rgb(39, 39, 117), rgb(62, 241, 62), rgb(253, 253, 60));
+    background: repeating-linear-gradient(rgb(241, 241, 88), rgb(76, 228, 76), rgb(88, 88, 230), rgb(255, 87, 87));
 }
 
 ::-webkit-scrollbar-thumb {
-    background: rgb(204, 200, 200);
+    background: rgb(239, 254, 255);
     border: cornsilk;
+    border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #484849;
+    background: #758185d7;
 }
 
 ::-webkit-scrollbar-thumb:active {
@@ -63,16 +64,7 @@ nav .buttons {
 }
 
 header {
-    min-height: 700px;
     background-image: url('../images/dark-header-background.png');
-    background-position: bottom;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 #logo-main {

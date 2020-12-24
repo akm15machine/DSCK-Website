@@ -3,6 +3,27 @@ body {
     color: #202124;
 }
 
+::-webkit-scrollbar {
+    width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+    background: repeating-linear-gradient(rgb(255, 52, 52), rgb(39, 39, 117), rgb(62, 241, 62), rgb(253, 253, 60));
+}
+
+::-webkit-scrollbar-thumb {
+    background: #adb8b7;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(133, 132, 132);
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: rgb(133, 132, 132);
+}
+
 a,
 a:active,
 a:visited,
@@ -40,6 +61,10 @@ nav .buttons {
     background-image: url('../images/logo-dsc.png');
     background-size: cover;
     background-position: center;
+}
+
+header {
+    background-image: url('../images/header-background.png');
 }
 
 .button {
